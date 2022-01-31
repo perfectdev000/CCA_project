@@ -1,0 +1,146 @@
+
+/**********************************/
+/************ HEADER **************/
+/**********************************/
+.outer_container {
+    width: 100%;
+    padding: 0px 50px;
+    height: auto;
+}
+
+.main_container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    height: auto;
+    padding-top: 1px;
+}
+
+@media all and (max-width: 768px) {
+    .outer_container {
+        padding: 0px 25px;
+    }
+}
+
+.header_logo {
+    width: 300px!important;
+    float: left;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.header_detail {
+    width: calc(100% - 300px)!important;
+    padding: 10px;
+}
+
+/**********************************/
+/*********** SIDENAV **************/
+/**********************************/
+.user_sidenav {
+    width: 200px;
+    min-height: calc(100vh - 49px);
+    height: auto;
+    float: left;
+    background-color: white;
+    z-index: 1;
+    padding: 20px 30px;
+}
+
+.user_sidenav_item {
+    margin-top: 20px;  
+    cursor: pointer;  
+}
+
+.user_sidenav_item:hover {
+    color: #2196F3;
+}
+
+.user_sidenav_item_selected {
+    color: #2196F3;    
+}
+
+.user_side_container {
+    width: calc(100% - 200px);
+    min-height: calc(100vh - 49px);
+    float: left;
+    z-index: 2;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+/**********************************/
+/********* USER DASHBOARD *********/
+/**********************************/
+
+.user_dash_part {
+    border: 1px solid #2196F3;
+    border-radius: 10px;
+    min-height: 500px;
+    padding: 30px;
+}
+
+.user_session_part {
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding: 0px 20px 20px;    
+}
+
+.user_table_container {
+    height: 380px;
+    overflow-y: auto;
+}
+
+.user_payment_box {
+    border-radius: 5px;
+    border: 1px solid #2196F3;
+    width: fit-content;
+    padding: 3px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.user_payment_selected {
+    border: 2px solid #2196F3;
+    box-shadow: 2px 2px 5px #2196F3;
+}
+
+.user_session_item {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15px;
+    min-height: 100px;
+    padding: 10px;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid #2196F3;
+}
+
+.user_session_item:hover {
+    color: white;
+    background-color: #2196F3;
+}
+
+.user_course_completion_container {
+    width: 60%;
+    float: left;
+    margin-left: 10%;
+    height: 20px;
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid #2196F3;
+}
+.user_course_completion_body {
+    height: 18px;
+    border-radius: 3px;
+    background-color: #2196F3;
+}
+.user_session_item:hover .user_course_completion_container{
+    color: white;
+    border: 1px solid white;
+    background-color: #2196F3;
+}
+
+.user_session_item:hover .user_course_completion_body {
+    background-color: white;
+}

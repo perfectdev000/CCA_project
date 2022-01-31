@@ -1,0 +1,37 @@
+{
+  "name": "linkhealthstaff",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-adilshah99:UMENIT-SOLUTIONS-LLP/LHS.git"
+  },
+  "author": "adil shah",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.999.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "btoa": "^1.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.8",
+    "multer": "^1.4.3",
+    "multer-s3": "^2.9.0",
+    "node-fetch": "^3.1.0",
+    "nodemon": "^2.0.13",
+    "npm": "^8.1.2",
+    "stripe": "^8.191.0",
+    "uuid": "^3.3.2",
+    "validator": "^13.6.0"
+  }
+}
